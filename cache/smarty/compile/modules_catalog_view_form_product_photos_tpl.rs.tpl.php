@@ -1,0 +1,29 @@
+<?php /* Smarty version Smarty-3.1.18, created on 2016-08-23 13:56:41
+         compiled from "/var/www/www-root/data/www/xn----7sbac5ajmzrjl.xn--p1ai/modules/catalog/view/form/product/photos.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:211440320357bc2be9418499-69262328%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'd86984ad8e939ac1bab6355e23944541dcd5350e' => 
+    array (
+      0 => '/var/www/www-root/data/www/xn----7sbac5ajmzrjl.xn--p1ai/modules/catalog/view/form/product/photos.tpl',
+      1 => 1457614298,
+      2 => 'rs',
+    ),
+  ),
+  'nocache_hash' => '211440320357bc2be9418499-69262328',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'elem' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_57bc2be9550f73_73452425',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57bc2be9550f73_73452425')) {function content_57bc2be9550f73_73452425($_smarty_tpl) {?><?php if (!is_callable('smarty_function_moduleinsert')) include '/var/www/www-root/data/www/xn----7sbac5ajmzrjl.xn--p1ai/core/smarty/rsplugins/function.moduleinsert.php';
+?>
+<?php echo smarty_function_moduleinsert(array('name'=>"\Photo\Controller\Admin\BlockPhotos",'type'=>"catalog",'linkid'=>$_smarty_tpl->tpl_vars['elem']->value['id'],'indexTemplate'=>"%catalog%/form/product/photo/form_product.tpl",'photoTemplate'=>"%catalog%/form/product/photo/form_onepic_product.tpl"),$_smarty_tpl,'/var/www/www-root/data/www/xn----7sbac5ajmzrjl.xn--p1ai/modules/catalog/view/form/product/photos.tpl');?>
+<?php }} ?>

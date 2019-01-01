@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme scriptType="shop" scriptMajorVersion="2" themeType="pc">
+    <general>
+        <author>Valeriy Yumshanov</author>
+        <name>Stroyka</name>
+        <description>Тема строительного интернет-магазина</description>
+        <version>1.0</version>
+    </general>
+    <shades>
+        <shade>
+            <id>dark-blue</id>
+            <title>Тёмно-синяя</title>                
+            <color>#2072bf</color>
+        </shade>       
+    </shades>
+</theme>
